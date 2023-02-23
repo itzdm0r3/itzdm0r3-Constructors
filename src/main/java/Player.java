@@ -32,6 +32,7 @@ public class Player {
      */
     public Player(String playerName){
         
+        //add reference to fields with "this" keyword.
         this.playerName = playerName;
         this.level = 1;
     }
